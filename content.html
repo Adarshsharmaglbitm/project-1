@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Management Tool</title>
+  <link rel="stylesheet" type="text/css" href="script.css">
+  
+</head>
+<body>
+    <body style="background-color:powderblue;"></body>
+    <div class="container">
+    <h1 style="text-align: center;">Content Management Tool :</h1>
+    <hr>
+    <br>
+    <form id="blogForm">
+      <label for="TEXT">Text:</label>
+      <input type="text" id="title" name="title" required>
+      <label for="image">Image:</label>
+      <input type="file" id="image" name="image">
+
+      <label for="video" >Video:</label>
+      <input type="file" id="video" name="video">
+      <video controls autoplay>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        
+      </video>
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" required></textarea>
+
+      <button type="submit">Publish</button>
+    </form>
+
+    <pre>Note:
+              Name:This column to Enter the name.
+              Image:This row to the Select to the image to the browser
+              video:This row to the Select to the video to the browser
+              contect: enter to the our contect deatail
+              </pre>  
+  </div>
+  <script type="text/javascript" src="ad.js"></script>
+</body>
+</html>
